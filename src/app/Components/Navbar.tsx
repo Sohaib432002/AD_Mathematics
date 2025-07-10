@@ -16,12 +16,12 @@ function Navbar() {
                     {isOpen && <div className="mb-nav">
 
 
-                        <ul className='flex absolute left-0 top-[114px] w-full flex-col justify-center items-start gap-4 text-gray-300'>
-                            <li className='list-none p-5 w-full hover:bg-gray-500 ' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Home</a></li>
-                            <li className='list-none p-5 w-full hover:bg-gray-500' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Service</a></li>
-                            <li className='list-none p-5 w-full hover:bg-gray-500' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">About me</a></li>
-                            <li className='list-none p-5 w-full hover:bg-gray-500' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Portfolio</a></li>
-                            <li className='list-none p-5 w-full hover:bg-gray-500' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Contact Me</a></li>
+                        <ul className='flex absolute left-0 top-[114px] w-full flex-col justify-center items-start  text-gray-300'>
+                            <li className='list-none bg-[#1d2023] p-5 w-full hover:bg-gray-500 ' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Home</a></li>
+                            <li className='list-none bg-[#1d2023] p-5 w-full hover:bg-gray-500' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Service</a></li>
+                            <li className='list-none bg-[#1d2023] p-5 w-full hover:bg-gray-500' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="/About">About me</a></li>
+                            <li className='list-none bg-[#1d2023] p-5 w-full hover:bg-gray-500' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Portfolio</a></li>
+                            <li className='list-none bg-[#1d2023] p-5 w-full hover:bg-gray-500' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Contact Me</a></li>
                         </ul>
                     </div> }
                     
@@ -29,9 +29,9 @@ function Navbar() {
                 <div className="log  text-xl p-8 flex justify-center" ><img src="./LOGO.png" style={{ minWidth: 40 }} alt="" /></div>
                 <div className="nav-list max-[1200px]:hidden">
                     <ul className='flex justify-center items-center gap-30  text-gray'>
-                        <li className='list-none' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Home</a></li>
-                        <li className='list-none' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Service</a></li>
-                        <li className='list-none' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">About me</a></li>
+                        <li className='list-none ' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Home</a></li>
+                        <li className='list-none ' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Service</a></li>
+                        <li className='list-none' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="/About/">About me</a></li>
                         <li className='list-none' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Portfolio</a></li>
                         <li className='list-none' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="£">Contact Me</a></li>
                     </ul>
