@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Conversational AI Powered Banking: Enhancing Customer Services",
+    "description": "Developing an AI-powered banking system capable of understanding and responding to banking-related queries, aiming to enhance customer service.",
+    "categories": ["Artificial Intelligence", "Natural Language Processing", "FinTech"]
+  },
+  {
+    "title": "Comparative Analysis of CNN Architectures for Facial Expression Recognition",
+    "description": "Explored different convolutional neural network (CNN) architectures for recognizing facial expressions using a dataset of 35,000 images. Evaluated models based on accuracy, efficiency, and generalization.",
+    "categories": ["Deep Learning", "Computer Vision"]
+  },
+  {
+    "title": "House Price Prediction Using Regression Models: A Comparative Study",
+    "description": "Analyzed the performance of various regression models—linear, polynomial, decision tree, and random forest—to predict house prices and determine the most accurate method.",
+    "categories": ["Machine Learning", "Regression", "Data Science"]
+  },
+  {
+    "title": "Customer Churn Prediction Using XGBoost",
+    "description": "Implemented XGBoost to predict customer churn and identify key features contributing to customer retention or loss.",
+    "categories": ["Machine Learning", "Classification", "Business Analytics"]
+  }
+]

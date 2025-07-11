@@ -35,37 +35,39 @@ function About() {
                     <div className='flex-col flex justify-center items-center'>
                         <div className='flex justify-center items-center my-5 '>
                             <img src="./About_frames/Ellipse 4.png" className='relative' alt="Ellipise" />
-                            <img src="./About_frames/Vector.png" className='absolute' alt="png" />
+                            <img src="./About_frames/Group.png" className='absolute' alt="png" />
                         </div>
                         <div><img src="./About_frames/100.png" alt="100%" /></div>
-                        <p className='text-[#959595] my-3 text-[24px] font-bold ' >Figma</p>
+                        <p className='text-[#959595] my-3 text-[24px] font-bold ' >AdobeXD</p>
                     </div>
                     <div className='flex-col flex justify-center items-center'>
                         <div className='flex justify-center items-center my-5 '>
                             <img src="./About_frames/Ellipse 4.png" className='relative' alt="Ellipise" />
-                            <img src="./About_frames/Vector.png" className='absolute' alt="png" />
+                            <img src="./About_frames/iconoir_adobe-photoshop.png" className='absolute' alt="png" />
                         </div>
                         <div><img src="./About_frames/100.png" alt="100%" /></div>
-                        <p className='text-[#959595] my-3 text-[24px] font-bold ' >Figma</p>
+                        <p className='text-[#959595] my-3 text-[24px] font-bold ' >Adobe Photoshop</p>
                     </div>
                     <div className='flex-col flex justify-center items-center'>
                         <div className='flex justify-center items-center my-5 '>
                             <img src="./About_frames/Ellipse 4.png" className='relative' alt="Ellipise" />
-                            <img src="./About_frames/Vector.png" className='absolute' alt="png" />
+                            <img src="./About_frames/iconoir_adobe-illustrator.png" className='absolute' alt="png" />
                         </div>
                         <div><img src="./About_frames/100.png" alt="100%" /></div>
-                        <p className='text-[#959595] my-3 text-[24px] font-bold ' >Figma</p>
+                        <p className='text-[#959595] my-3 text-[24px] font-bold ' >Adobe Illustrator</p>
                     </div>
                     <div className='flex-col flex justify-center items-center'>
                         <div className='flex justify-center items-center my-5 '>
                             <img src="./About_frames/Ellipse 4.png" className='relative' alt="Ellipise" />
-                            <img src="./About_frames/Vector.png" className='absolute' alt="png" />
+                            <img src="./About_frames/basil_adobe-premiere-outline.png" className='absolute' alt="png" />
                         </div>
                         <div><img src="./About_frames/100.png" alt="100%" /></div>
-                        <p className='text-[#959595] my-3 text-[24px] font-bold ' >Figma</p>
+                        <p className='text-[#959595] my-3 text-[24px] font-bold ' >Adobe Premiere</p>
                     </div>
                 </div>
             </section>
+            <br />
+            <br /><br />
         </>
     )
 }
