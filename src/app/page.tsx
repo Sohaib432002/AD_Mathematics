@@ -1,12 +1,15 @@
 
 import Navbar from "../app/Components/Navbar";
-import Section_1  from "./Components/Section_1";
-
+import Home_  from "./Components/Home";
+import Service from "./Components/Service";
+import About from "./Components/About";
 export default function Home() {
   return (
     <>
     <Navbar/>
-    <Section_1/>
+    <Home_/>
+    <Service/>
+    <About/>
     </>
   );
 }
