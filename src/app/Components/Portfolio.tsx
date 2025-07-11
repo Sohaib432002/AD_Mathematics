@@ -6,7 +6,7 @@ const Projects = [
         "title": "Conversational AI Powered Banking: Enhancing Customer Services",
         "description": "Developing an AI-powered banking system capable of understanding and responding to banking-related queries, aiming to enhance customer service.",
         "categories": ["Artificial Intelligence", "Natural Language Processing", "FinTech"],
-        'img': 'https://www.pinterest.com/pin/57420963997165775/',
+        'img': 'https://i.pinimg.com/736x/cd/31/59/cd3159832eacd5930014ac66b68a5ec0.jpg',
     },
     {
         "title": "Comparative Analysis of CNN Architectures for Facial Expression Recognition",
@@ -50,14 +50,15 @@ function Portfolio() {
                     <button className='px-5  py-3 rounded hover:bg-[linear-gradient(90deg,_#FD6F00_0%,_#E46400_100%)] transition  cursor-pointer duration-300 font-bold text-[16px] bg-[#575757]' onClick={() => setFilter('Artificial Intelligence')} >Artificial Intelligence</button>
                 </div>
                 <br /><br />
-                <div className='grid  md:grid-cols-3 lg:grid-cols-4 gap-2'>
+                <div className='grid  max-[1250px]:mx-10  max-[1020px]:grid-cols-2 max-[700px]:grid-cols-1 lg:grid-cols-3 gap-4'>
 
                     {filteredProjects.map((project, index) => (
                         <div key={index} className='flex flex-col mb-5'>
-                            <img className='rounded-xl' src={project.img} alt={`Project ${index + 1}`} />
+                            <img className='rounded-xl h-[45vh]' src={project.img} alt={`Project ${index + 1}`} />
                             <div className='flex justify-between bg-[#2a2a2b]'>
-                                <p className='text-[16px] px-4 py-5 font-bold'>{project.title}</p>
-                                <p className='text-[16px] px-4 py-5 font-bold'>{project.categories.join(', ')}</p>
+                                <p title={project.title} className='text-[16px] max-[700px]:text-[14px]  px-4 py-5 font-bold'>{project.title.length > 20 ? project.title.slice(0, 20) + '...'
+                                    : project.title} </p>
+                                <p className='text-[16px] max-[700px]:text-[14px] px-4 py-5 font-bold'>{project.categories[0]}</p>
                             </div>
                         </div>)
                     )}
@@ -66,6 +67,7 @@ function Portfolio() {
                 </div>
 
             </section>
+            <br /><br /><br />
         </>
     )
 }
