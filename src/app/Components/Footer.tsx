@@ -27,7 +27,7 @@ function Footer() {
                     <span className='my-2'><LocalPhoneIcon />+92337-6184496</span>
                 </div>
                 <div className='flex justify-center items-center b-t-2 mt-5 '>
-                    <p className='text-center text-[#959595] p-3 font-bold'>© 2023 Mahmood Fazile. All rights reserved.</p>
+                    <p className='text-center text-[#959595] p-3 font-bold'>© 2025 Adnan Aslam.All rights reserved.</p>
                 </div>
             </section>
         </>
