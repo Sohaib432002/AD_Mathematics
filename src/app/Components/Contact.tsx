@@ -15,10 +15,8 @@ const Contact = () => {
     action="https://api.web3forms.com/submit" 
     method="POST"
 >
-    {/* Replace with your actual Web3Forms Access Key */}
     <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
 
-    {/* Optional Honeypot Field for Spam Protection */}
     <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
 
     <div className='flex max-[750px]:flex-col max-[750px]:justify-center max-[750px]:items-center flex-wrap justify-around'>

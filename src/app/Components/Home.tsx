@@ -83,7 +83,7 @@ function Section_1() {
                     </div>
                 </div>
                 <div style={{ backgroundImage: newLocal }} className='w-[50%] bg-[#000000] rounded-3xl max-[550px]:ml-0 ml-14 items-end max-[1000px]:w-[100%]  flex justify-center relative'>
-                    <div><img src="./Man in black suit looking confident.png" className='min-w-150' alt="Self-pic" /></div>
+                    <div><img src="./Man in black suit looking confident.png" className='min-w-150 max-[750px]:min-w-70 ' alt="Self-pic" /></div>
                     <div className='bg-[#000000] bg-no-repeat bg-bottom absolute z-2 rounded-[100%] absolute z-2' >
                     </div>
                 </div>
