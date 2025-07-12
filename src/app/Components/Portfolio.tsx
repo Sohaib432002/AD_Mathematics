@@ -35,9 +35,9 @@ function Portfolio() {
     const filteredProjects = filter === 'All' ? Projects : Projects.filter(project => project.categories.includes(filter));
     return (
         <>
-            <section className='px-70 max-[1500px]:px-3 ' >
+            <section id='Portfolio' className='px-70 max-[1500px]:px-3 ' >
                 <div className='text-center '>
-                    <h4 className='font-bold max-[550px]:text-[24px] text-[40px]'>Portolio</h4>
+                    <h4 className='font-bold max-[550px]:text-[24px] text-[40px]'>Portfolio</h4>
                 </div>
                 <br />
                 <br />

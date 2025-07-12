@@ -6,6 +6,7 @@ import About from "./Components/About";
 import Portfolio from "./Components/Portfolio";
 import Contact from "./Components/Contact";
 import Footer from '../app/Components/Footer'
+import Top_move from "./Components/top_move";
 export default function Home() {
   return (
     <>
@@ -16,7 +17,7 @@ export default function Home() {
     <Portfolio/>
     <Contact/>
     <Footer/>
-
+    <Top_move/>
     </>
   );
 }

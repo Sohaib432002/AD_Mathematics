@@ -4,7 +4,7 @@ import React from 'react'
 const Contact = () => {
     return (
         <>
-            <section className='font-loto px-70 max-[1500px]:px-5  max-[500px]:mx-0  max-[1000px]:flex-wrap' >
+            <section id='Contact' className='font-loto px-70 max-[1500px]:px-5  max-[500px]:mx-0  max-[1000px]:flex-wrap' >
                 <div className='text-center'>
                     <h4 className='font-bold max-[550px]:text-[24px] text-[40px]'>Contact me</h4>
                     <p className='text-[20px] max-[550px]:text-[16px] font-medium'>Cultivating Connections: Reach Out and Connect with Me</p>
@@ -16,14 +16,24 @@ const Contact = () => {
                             <input type='email' className='p-4 bg-[#2a2a2b] max-[750px]:w-[95%] rounded-sm w-[40%] focus:outline-none max-[750px]:my-4' placeholder='Email ' />
                         </div>
                         <div className='flex flex-wrap  max-[750px]:flex-col max-[750px]:justify-center max-[750px]:items-center justify-around'>
-                            <input type='tel' className='p-4 max-[750px]:w-[95%]  bg-[#2a2a2b] my-3  rounded-sm w-[40%] focus:outline-none' placeholder='Phone' max={12} />
-                            <select className="p-4 bg-[#2a2a2b] text-[#959595]  my-3 max-[750px]:w-[95%] rounded-sm w-[40%] focus:outline-none" name="service" id="service">
-                                <option disabled selected>Service of Interest</option>
-                                <option value="DataAnalysis"> Data Analysis & Visualization</option>
+                            <input
+                                type='tel'
+                                className='p-4 max-[750px]:w-[95%] bg-[#2a2a2b] my-3 rounded-sm w-[40%] focus:outline-none text-[#959595]'
+                                placeholder='Phone'
+                                maxLength={12}
+                            />
+                            <select
+                                defaultValue=""
+                                className="p-4 bg-[#2a2a2b] text-[#959595] my-3 max-[750px]:w-[95%] rounded-sm w-[40%] focus:outline-none"
+                                name="service"
+                                id="service"
+                            >
+                                <option value="" disabled>
+                                    Service of Interest
+                                </option>
+                                <option value="DataAnalysis">Data Analysis & Visualization</option>
                                 <option value="ML-Solutions">Machine Learning Solutions</option>
                                 <option value="Research">Research Assistant / Math-Based Simulation Work</option>
-                                <option value="Academic">Academic Tutoring or Assignment Help</option>
-                                <option value=" Event">Event Planning / Media Management (Non-technical)</option>
                             </select>
                         </div>
                         <div className='flex max-[750px]:flex-col max-[750px]:justify-center max-[750px]:items-center  flex-wrap justify-around items-baseline'>
@@ -31,7 +41,7 @@ const Contact = () => {
                             <textarea name="Project-details" className='p-4 max-[750px]:w-[95%] bg-[#2a2a2b] my-3  rounded-sm w-[40%] focus:outline-none' placeholder='Project Details...' cols={4} rows={4}></textarea>
                         </div>
                         <div className='flex justify-end items-left max-[750px]:justify-center pr-16 my-5 '>
-                            <button type='submit' className='text-[#959595] rounded-sm border py-3 px-8 hover:bg-[#2a2a2b] cursor-pointer'>Send</button>
+                            <button type='submit' className='text-[#959595] rounded-sm border  py-3 px-8 hover:bg-[#2a2a2b] cursor-pointer'>Send</button>
                         </div>
 
                     </form>
