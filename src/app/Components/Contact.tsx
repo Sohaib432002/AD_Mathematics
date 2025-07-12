@@ -15,7 +15,7 @@ const Contact = () => {
     action="https://api.web3forms.com/submit" 
     method="POST"
 >
-    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+    <input type="hidden" name="access_key" value="baf60a04-502e-4800-8238-a84d4c5c12ce" />
 
     <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
 
@@ -50,11 +50,14 @@ const Contact = () => {
             name="service"
             id="service"
             required
+    
         >
             <option value="" disabled>Service of Interest</option>
-            <option value="DataAnalysis">Data Analysis & Visualization</option>
-            <option value="ML-Solutions">Machine Learning Solutions</option>
-            <option value="Research">Research Assistant / Math-Based Simulation Work</option>
+            <option value="DataAnalysis & Visualization">Data Analysis & Visualization</option>
+            <option value="Machine Learning Solutions">Machine Learning Solutions</option>
+            <option value="Research Assistant / Math-Based Simulation Work">Research Assistant / Math-Based Simulation Work</option>
+            <option value="Event & Media Management">Event & Media Management</option>
+            <option value="Acedamic Tutoring">Acedamic Tutoring</option>
         </select>
     </div>
 
@@ -62,7 +65,7 @@ const Contact = () => {
         <input 
             type='time' 
             className='p-4 max-[750px]:w-[95%] bg-[#2a2a2b] my-3 rounded-sm w-[40%] focus:outline-none' 
-            placeholder='Timeline' 
+            placeholder='Timeline..' 
             name="timeline"
         />
         <textarea 

@@ -6,7 +6,7 @@ function About() {
             <section id='About' className='px-70 max-[1500px]:px-3 ' >
                 <div className='text-center '>
                     <h4 className='font-bold max-[550px]:text-[24px] text-[40px]'>About</h4>
-                    <p className='text-[20px] max-[550px]:text-[16px] font-medium'>User Interface and User Experience and Also video editing </p>
+                    <p className='text-[20px] max-[550px]:text-[16px] font-medium'> </p>
                 </div>
                 <div className='flex max-[550px]:px-5  max-[1000px]:w-full  max-[950px]:flex-wrap max-[950px]:justify-center' >
                     <div className='flex justify-center items-center min-[550px]:w-[40%] max-[550px]:w-full max-[550px]:bg-[#312f2c]  rounded-3xl max-[550px]:justify-center max-[550px]:items-center'>
