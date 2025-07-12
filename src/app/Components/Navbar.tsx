@@ -26,7 +26,7 @@ function Navbar() {
                     </div> }
                     
                 </div>
-                <div className="log  text-xl p-8 flex justify-center" ><img src="./LOGO.png" style={{ minWidth: 40 }} alt="" /></div>
+                <div className="log  text-xl p-8 flex justify-center" ><img src="./Logo_png.png" style={{ width: 60 }} alt="" /></div>
                 <div className="nav-list max-[1200px]:hidden">
                     <ul className='flex justify-center items-center gap-30  text-gray'>
                         <li className='list-none ' ><a className='no-underline hover:text-[#E46400] transition  duration-200' href="#Home">Home</a></li>

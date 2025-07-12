@@ -6,7 +6,7 @@ function Footer() {
         <>
             <section className=' bg-[#2a2a2b] '>
                 <div className='flex justify-center items-center p-10 '>
-                    <img src="./LOGO.png" alt="logo" />
+                    <img src="./Logo_png-removebg-preview.png" style={{width:60}} alt="logo" />
                 </div>
                 <div className="nav-list">
                     <ul className='flex justify-center items-center gap-30 max-[950px]:gap-10 max-[580px]:gap-4  text-gray'>
