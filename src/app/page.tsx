@@ -8,6 +8,7 @@ import Contact from "./Components/Contact";
 import Footer from '../app/Components/Footer'
 import Top_move from "./Components/top_move";
 export default function Home() {
+  
   return (
     <>
     <Navbar/>
